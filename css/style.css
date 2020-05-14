@@ -434,14 +434,6 @@ a:hover {
         margin-top: 10px;
     }
 
-    .products-row {
-        display: none;
-    }
-
-    .products-row.one {
-        display: flex;
-    }
-
     .all-like-products li {
         width: 46%;
         display: none;
