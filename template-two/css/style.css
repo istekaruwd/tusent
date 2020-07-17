@@ -281,9 +281,14 @@ h5.rel-pro-title {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
+	width: 160px;
 }
 .single-rel-pro a span:hover {
 	text-decoration: underline;
+}
+
+.support-img img[src=""] {
+    display: none;
 }
 
 /* LG Device :992px. */
@@ -291,12 +296,18 @@ h5.rel-pro-title {
 	.ftr-nav ul li a {
 		padding: 15px 12px;
 	}
+	.single-rel-pro a span {
+		width: 130px;
+	}
 }
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 	.copyright-txt {
 		padding: 15px 0;
+	}
+	.single-rel-pro a span {
+		width: 210px;
 	}
 }
 
@@ -318,4 +329,31 @@ h5.rel-pro-title {
 	h3.policy-info-title {
 		font-size: 18px;
 	}
+	.single-rel-pro a span {
+		width: 129px;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+	
+	.single-rel-pro a span {
+		width: 156px;
+	}
+ 
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+	
+	.single-rel-pro a span {
+		width: 176px;
+	}
+ 
+}
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+	
+	.single-rel-pro a span {
+		width: 240px;
+	}
+ 
 }
